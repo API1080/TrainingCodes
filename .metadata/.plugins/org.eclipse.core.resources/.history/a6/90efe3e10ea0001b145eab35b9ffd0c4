@@ -1,0 +1,29 @@
+package com.collectiondemo;
+import java.util.*;
+
+
+public class hashmaptest {
+	 public static void main(String[] args) {
+		 
+		    HashMap<Integer, String> hashmap = new HashMap<Integer, String>();
+		 
+		    hashmap.put(11,"Value1");
+		    hashmap.put(22,"Value2");
+		    hashmap.put(33,"Value3");
+		    hashmap.put(44,"Value4");
+		    hashmap.put(55,"Value5");
+		 
+		    Set entrySet = hashmap.entrySet();
+		    int sum=0;
+		    Iterator it = entrySet.iterator();
+		    
+		    System.out.println("HashMap Key-Value Pairs : ");
+		    while(it.hasNext()){
+		       Map.Entry me = (Map.Entry)it.next();
+		       sum=sum+(int)me.getKey();
+		       System.out.println("Key is: "+me.getKey() + 
+		       " & " + 
+		       " value is: "+me.getValue());
+		   }
+		 }
+}

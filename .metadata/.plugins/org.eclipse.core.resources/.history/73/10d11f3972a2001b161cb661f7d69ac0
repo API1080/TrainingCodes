@@ -1,0 +1,15 @@
+package com.assign7;
+import java.util.*;
+
+public class ques2 {
+	public static void main(String[] args) {
+		TreeSet<String> al=new TreeSet<String>();  
+		al.add("L");  
+		al.add("M");  
+		al.add("N");  
+		al.add("O"); 
+		al.add("P");
+		al.add("Q"); 
+		System.out.println("Initial Set: "+al);
+	}
+}

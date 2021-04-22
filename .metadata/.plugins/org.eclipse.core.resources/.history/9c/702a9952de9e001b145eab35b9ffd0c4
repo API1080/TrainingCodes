@@ -1,0 +1,21 @@
+package com.collectiondemo;
+import java.util.*;
+
+public class arraylisttest {
+		public static void main(String[] args) {
+			ArrayList<String> cars = new ArrayList<String>();
+			cars.add("Mercedes");
+			cars.add("Koenigsegg");
+			cars.add("Brabus");
+			cars.add("McLaren");
+			cars.add("SSC");
+			int count=0;
+			Iterator<String> itr=cars.iterator();
+			String str=itr.next();
+			for(int i = 0; i < str.length(); i++) {    
+	            if(str.charAt(i) != ' ')    
+	                count+=1;    
+			}
+			
+		}
+}

@@ -1,0 +1,18 @@
+package com.collectiondemo;
+import java.util.*;
+
+
+public class hashmaptest {
+	public static void main(String[] args) {
+	    HashMap<String, Integer> studentmarks = new HashMap<String, Integer>();
+	    studentmarks.put("Harry", 87);
+	    studentmarks.put("james", 61);
+	    studentmarks.put("tommy", 93);
+	    studentmarks.put("sammy", 71);
+	    studentmarks.put("david", 76);
+	    System.out.println(studentmarks);
+	    System.out.println(((Object) studentmarks).getKey());
+
+	}
+	
+}

@@ -1,0 +1,20 @@
+package com.assignment;
+
+public class ques3 {
+	int id;  
+	String name;  
+	  
+	ques3(int id ,int age){  
+	System.out.println("id: "+id+"\nage: "+age);  
+	}  
+	  
+	ques3(int id, String n, int age){  
+	System.out.println("id: "+id+"name: "+n+"\nage: "+age);
+	}  
+	
+	
+	public static void main(String[] args) {
+		ques3 obj1=new ques3(123,18);
+		ques3 obj2=new ques3(123,"Suraj",18);
+	}
+}

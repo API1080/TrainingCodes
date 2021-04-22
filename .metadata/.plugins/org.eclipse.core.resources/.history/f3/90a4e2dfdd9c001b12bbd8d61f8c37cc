@@ -1,0 +1,11 @@
+package com.evenodd;
+
+public class evenodd {
+			public void check(int num) {
+				if(num%2==0)
+					System.out.println("even");
+				else
+					System.out.println("odd");
+					
+			}
+}

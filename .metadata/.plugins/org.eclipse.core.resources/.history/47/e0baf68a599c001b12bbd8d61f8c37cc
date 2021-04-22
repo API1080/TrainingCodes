@@ -1,0 +1,14 @@
+package com.evenoddtest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class evenoddtest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

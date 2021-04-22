@@ -1,0 +1,26 @@
+package com.assign7;
+import java.util.*;
+
+public class ques3 {
+	public static void main(String[] args) {
+	    HashMap<Integer, String> places = new HashMap<Integer, String>();
+	    places.put(4, "Kerala");
+	    places.put(3, "Tamil Nadu");
+	    places.put(5, "Karnataka");
+	    places.put(1, "Maharashtra");
+	    places.put(2, "Telangana");
+	    System.out.println("Initial Map: "+places);
+	    
+	    List<Integer> keys= new ArrayList<Integer>(places.keySet());
+	    Collections.reverse(keys);
+	    
+	    System.out.println("Reverse of the hashmap");
+	    for (Integer strKey : keys) {
+            System.out.print(strKey+"="+places.get(strKey)+",  ");
+	    }
+	   
+	    Collections.reverse(keys);  
+	    for (Integer strKey : keys) {
+            System.out.print(strKey+"="+places.get(strKey)+",  ");
+	}
+}

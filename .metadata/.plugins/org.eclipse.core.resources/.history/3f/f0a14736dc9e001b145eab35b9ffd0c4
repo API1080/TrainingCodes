@@ -1,0 +1,6 @@
+package com.collectiontest;
+import java.util.ArrayList; 
+
+public class arraylisttest {
+
+}

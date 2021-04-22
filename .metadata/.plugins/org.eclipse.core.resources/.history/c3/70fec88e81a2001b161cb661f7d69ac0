@@ -1,0 +1,57 @@
+package com.assign7;
+import java.util.*;
+
+public class ques3 {
+	public static void main(String[] args) {
+	    HashMap<Integer, String> places = new HashMap<Integer, String>();
+	    places.put(4, "Kerala");
+	    places.put(3, "Tamil Nadu");
+	    places.put(5, "Karnataka");
+	    places.put(1, "Maharashtra");
+	    places.put(2, "Telangana");
+	    System.out.println("Initial Map: "+places);
+	    
+	    List<Integer> keys= new ArrayList<Integer>(places.keySet());
+	    Collections.reverse(keys);
+	    
+	    System.out.print("Reverse of the hashmap: ");
+	    for (Integer strKey : keys) {
+            System.out.print(strKey+"="+places.get(strKey)+",  ");
+	    }
+	    System.out.println();
+	    
+	    System.out.print("elements that are less than or equal to the key ‘3': ");
+	    List<Integer> keys1= new ArrayList<Integer>(places.keySet());
+	    for (Integer strKey : keys1) {
+	    	if(strKey<=3)
+            System.out.print(strKey+"="+places.get(strKey)+",  ");
+	    }
+	    System.out.println();
+	    
+	    System.out.print("elements that do not contain the key '2' and '5': ");
+	    for (Integer strKey : keys1) {
+	    	if(strKey!=2&&strKey!=5)
+            System.out.print(strKey+"="+places.get(strKey)+",  ");
+	    }
+	    System.out.println();
+	    
+	    System.out.print("elements that are greater than the key ‘3': ");
+	    for (Integer strKey : keys1) {
+	    	if(strKey>=3)
+            System.out.print(strKey+"="+places.get(strKey)+",  ");
+	    }
+	    System.out.println();
+	    
+	    List<String> mapValues = new ArrayList<>(places.values());
+	    Collections.sort(mapValues);
+	    System.out.println(mapValues);
+/*	    System.out.print("elements that are lesser than or equal to the value ‘Maharashtra': ");
+	    for (Integer strKey : keys1) {
+	    	if(	)
+            System.out.print(strKey+"="+places.get(strKey)+",  ");
+	    }
+	    System.out.println();
+*/	
+	
+	}
+}

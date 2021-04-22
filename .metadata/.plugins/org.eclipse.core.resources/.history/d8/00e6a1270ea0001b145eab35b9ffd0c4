@@ -1,0 +1,17 @@
+package com.collectiondemo;
+import java.util.*;
+
+
+public class hashmaptest {
+	public static void main(String[] args) {
+	    HashMap<Integer,String> studentlist = new HashMap<Integer, String>();
+	    studentlist.put(1, "Harry");
+	    studentlist.put(2, "james");
+	    studentlist.put(3, "tommy");
+	    studentlist.put(4, "sammy");
+	    studentlist.put(5, "david");
+	    System.out.println(studentlist);
+
+	}
+	
+}

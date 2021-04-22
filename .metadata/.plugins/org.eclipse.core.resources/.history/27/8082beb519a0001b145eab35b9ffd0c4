@@ -1,0 +1,43 @@
+package com.collectiondemo;
+interface arithmetic{
+	static int adds(int a,int b) {
+		return a+b;
+		}
+	static int subs(int a,int b) {
+		return a-b;
+		}
+	static int multiply(int a,int b) {
+		return a*b;
+		}
+	static float div(int a,int b) {
+		return a+b;
+		}
+	static int mods(int a,int b) {
+		return a%b;
+		}
+	static int inc(int a) {
+		return ++a;
+		}
+	static int dec(int a) {
+		return --a;
+		}
+}
+
+interface bitwise{
+	static int and(int a,int b) {
+		return a&b;
+		}
+	static int or(int a,int b) {
+		return a|b;
+		}
+	static int xor(int a,int b) {
+		return a^b;
+		}
+	static int adds(int a) {
+		return ~a;
+		}
+	
+}
+public class ques3 {
+
+}

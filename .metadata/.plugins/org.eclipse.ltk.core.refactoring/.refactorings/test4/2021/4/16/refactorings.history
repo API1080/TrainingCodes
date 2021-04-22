@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;lcm&apos; in &apos;com.hcflcm.hcflcm.checklcm(...)&apos; to &apos;r&apos;&#x0D;&#x0A;- Original project: &apos;test4&apos;&#x0D;&#x0A;- Original element: &apos;com.hcflcm.hcflcm.checklcm(int, int, int).lcm&apos;&#x0D;&#x0A;- Renamed element: &apos;lcm&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;lcm&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hcflcm{hcflcm.java[hcflcm~checklcm~I~I~I@lcm!306!313!310!312!I!0!false" name="r" references="true" stamp="1618380490939" version="1.0"/>
+</session>

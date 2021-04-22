@@ -1,0 +1,18 @@
+INDEX VERSION 1.131+C:\Users\Apisero\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
+4104047.index
+884853125.index
+3328409601.index
+4134843999.index
+1745888252.index
+2365508181.index
+2250130128.index
+2005756727.index
+4242257331.index
+2406917485.index
+2976309644.index
+3638472311.index
+521605994.index
+2575501851.index
+3621235601.index
+2896456796.index
+182718311.index
